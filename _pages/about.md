@@ -31,7 +31,6 @@ Awards
 
 Publications
 ======
-(* denotes equal contribution)
 
 Preprints
 ------
