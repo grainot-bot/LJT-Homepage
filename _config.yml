@@ -1,17 +1,13 @@
-# Welcome to Jekyll!
-
-# Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
 title                    : "Junteng Liu"
 title_separator          : "-"
-name                     : &amp;name "Junteng Liu"
-description              : &amp;description "Junteng Liu's academic homepage"
+name                     : "Junteng Liu"
+description              : "Junteng Liu's academic homepage"
 url                      : https://grainot-bot.github.io
 baseurl                  : "/LJT-Homepage"
 repository               : "grainot-bot/LJT-Homepage"
 
-# Site Author
 author:
   avatar           : "profile.png"
   name             : "Junteng Liu"
@@ -22,7 +18,6 @@ author:
   uri              :
   email            : "jliugi@connect.ust.hk"
 
-  # Academic websites
   academia         :
   arxiv            :
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
@@ -36,7 +31,6 @@ author:
   scopus           :
   zotero           :
 
-  # Repositories and software development
   bitbucket        :
   codepen          :
   dribbble         :
@@ -44,7 +38,6 @@ author:
   kaggle           :
   stackoverflow    :
 
-  # Social media
   artstation       :
   bluesky          :
   facebook         :
@@ -71,14 +64,12 @@ author:
   youtube          :
   zhihu            :
 
-# Publication Category
 publication_category:
   manuscripts:
     title: 'Preprints'
   conferences:
     title: 'Conference Papers'
 
-# Site Settings
 teaser                   :
 breadcrumbs              : false
 words_per_minute         : 160
@@ -115,15 +106,11 @@ atom_feed:
   hide                   : false
   path                   :
 
-
-# SEO Related
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
-
-# Social Sharing
 twitter:
   username               : "junteng88716710"
 facebook:
@@ -137,15 +124,11 @@ social:
   name                   :
   links:
 
-
-# Analytics
 analytics:
   provider               :  "false"
   google:
     tracking_id          :
 
-
-# Reading Files
 include:
   - .htaccess
   - _pages
@@ -183,16 +166,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
-# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -203,17 +182,12 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
-# Collections
 collections:
   publications:
     output: true
     permalink: /:collection/:path/
 
-
-# Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -224,14 +198,12 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _publications
   - scope:
       path: ""
       type: publications
@@ -241,19 +213,13 @@ defaults:
       share: true
       comments: true
 
-
-# Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed
 
-
-# Outputting
 permalink: /:categories/:title/
 timezone: Etc/UTC
 
-
-# Plugins
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -270,8 +236,6 @@ whitelist:
   - jekyll-redirect-from
   - jemoji
 
-
-# Archives
 category_archive:
   type: liquid
   path: /categories/
@@ -279,8 +243,6 @@ tag_archive:
   type: liquid
   path: /tags/
 
-
-# HTML Compression
 compress_html:
   clippings: all
   ignore:
